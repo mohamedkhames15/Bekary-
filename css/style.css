@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+body{
+ 
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+/* ================= start home  ==================*/
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+
+
+}
+/* ========================== vav===================== */
+.nav-icon {
+    width: 15%;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+.nav-icon img {
+    width: 100%;
+}
+
+.nav-links {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.nav-links ul li {
+    display: inline-block;
+
+
+}
+
+.nav-links ul li a {
+    padding: 10px;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    width: 35%;
+    
+    text-align: center;
+    color: #fff;
+
+}
+
+.first-p {
+    font-size: 22px;
+    line-height: 41px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.home-content h1 {
+    font-size: 76px;
+
+}
+
+.sacond-p {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.btn-color {
+    background-color: #8e7754;
+    border: none;
+    padding: 15px 28px;
+    font-size: 15px;
+    color: #fff;
+
+
+}
+
+.btn {
+    background-color: transparent;
+    padding: 15px 28px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.btn-color:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* ================= end home  ==================*/
+
+/*  start about */
+.about {
+    margin-top: 50px;
+}
+
+.about-img {
+
+    width: 40%;
+    display: inline-block;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content {
+    width: 35%;
+    display: inline-block;
+    padding: 20px;
+
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 49px;
+}
+
+.about-content h2 {
+    color:
+        #303030;
+    font-size: 32px;
+}
+
+
+.p-about {
+    color: #686880;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+.about-content ul li img {
+    width: 50px;
+    vertical-align: middle;
+    border: 1px solid #686880;
+    border-radius: 50%;
+}
+
+.about-icon {
+    display: inline-block;
+
+    height: 30px;
+    width: 50px;
+
+
+}
+
+.about-icon img {
+    width: 100%;
+}
+
+.about-icon-text {
+    display: inline-block;
+
+}
+
+.about-content ul li {
+    color: rgb(104, 104, 128);
+    padding: 15px;
+
+}
+
+.about-icon-text p {
+    font-size: 25px;
+    padding-left: 11px;
+
+}
+
+/*   end about */
+/* start section Our Location */
+.our-location{
+    margin-top: 49px;
+
+    
+
+}
+.bgc0{
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+}
+.OurLocation-text{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-top: 49px;
+  
+}
+.OurLocation-text h2{
+    color:
+    #303030 ;
+    font-size:32px ;
+}
+.OurLocation-text p{
+    color: 
+    #686868;
+    font-size: 17px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+.OurLocation-img{
+    display: inline-block;
+    padding-left: 30px;
+}
+.OurLocation-img {
+    width: 40%;
+   
+}
+.OurLocation-img img{
+    width: 100%;
+}
+/* end section Our Location */
+/* start Our Baking */
+.el-kall{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 15px;
+}
+.el-kall h3{
+    font-size: 30px;
+}
+.el-kall p{
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 0;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.item .baking-img img{
+     width: 100%;
+     }
+
+
+.item{
+    width: 33.33%;
+    float:left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.baking-text {
+    text-align: center;
+}
+.baking-text h4
+{
+    padding: 20px 0;
+    font-size: 22px;
+    color: #303030;
+    line-height: 1.38em;
+}
+.baking-text p{
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.86em;
+      color: #686868;
+}
+.clear{
+    clear: both;
+}
+.Contact-Information-text{
+    width: 50%;
+    padding: 20px;
+    
+}
+.Contact-Information-text ul{
+    margin-top: 20px;
+}
+.Contact-Information-text ul li{
+    margin-top: 5px;
+
+}
+.Contact-Information-text ul li img{
+    
+    width: 30px;
+    padding: 3px;
+    margin-right: 20px;
+    background-color:#8e7754 ;
+    border-radius: 50%;
+
+
+}
+.Contact-Information-text ul li p{
+    font-size: 17px;
+    color: #686868;
+}
+.Contact-Information-text ul li{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.full{
+    display: flex;
+    justify-content: center;
+}
+/* end Our Baking  */
+/* ========================== 0*/
+.w-25
+{
+    width: 25%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.w-20{
+    width: 20px;
+}
+.w-30{
+    width: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.bgc{
+    background-color: #403d38;
+}
+.coler-w{
+    color: #fff;
+}
+.fs-18{
+    font-size: 18px;
+}
+.w-100{
+    width: 100%;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.Contact-Details{
+    background-image: url(./../images/contact-details-map.png);
+    background-size: 100%;
+    padding: 15px;
+}
+.Contact-Details ul li{
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+     
+}
+.Opening-Hours{
+    padding: 15px;
+}
+.Opening-Hours ul li{
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.Why-we-are-special{
+    padding: 15px;
+}
+.Why-we-are-special ul li {
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.About-us{
+    padding: 15px;
+}
+.About-us p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+/* ===========================
+ */
+ /* end-section */
+ .end-section{
+    background-color: #303030;
+    text-align: center;
+ 
+ }
+ .end-section h4{
+    color: #777;
+    font-size: 20px;
+    margin: 15px 0;
+ }
+ .logo-end img{
+    padding-top: 50px;
+    width: 30%;
+ }
+.list-social-media{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.list-social-media ul li{
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.list-social-media ul li img{
+    width: 50px;
+    border: 1px solid #686868;
+    background-color: #403d38;
+    border-radius: 50%;
+
+}
+.list-social-media ul li img:hover{
+    background-color: blue;
+}

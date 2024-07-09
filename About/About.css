@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+body{
+ 
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+/* ================= start home  ==================*/
+
+
+/* ========================== vav===================== */
+.nav-icon {
+    width: 15%;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+.nav-icon img {
+    width: 100%;
+}
+
+.nav-links {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.nav-links ul li {
+    display: inline-block;
+
+
+}
+
+.nav-links ul li a {
+    padding: 10px;
+    font-weight: 400;
+    color: #686868;
+}
+.h-40{
+    height:auto;
+    /* background-color: blueviolet; */
+    padding: 30px;
+}
+
+
+/* ================================
+ */
+ /* =========================== intro-about==================== */
+ .intro-about{
+    height: 50vh;
+    background-image: url(./../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+ .cotent{
+    text-align: center;
+    
+    color: #fff;
+ }
+ /* ============================ */
+ .img-Our-Story{
+    width: 50%;
+ }
+ .img-Our-Story img{
+    width: 100%;
+ }
+ .content-Our-Story{
+    width: 50%;
+    margin-top: 30px;
+    padding: 40px;
+ }
+ .content-Our-Story h2{
+    color: 
+    RGB(48, 48, 48);
+    font-size: 32px;
+    padding: 20px 0px;
+ }
+ .content-Our-Story p{
+    color: #606060
+    ;
+    font-size: 18.5px;
+    line-height: 1.86em;
+    padding-bottom: 30px;
+    border-bottom: #686868 0.5px solid;
+ }
+.d-flex{
+    display: flex;
+    justify-content: center;
+     margin: 50px;
+ }
+
+
+
+
+
+
+
+
+ /* =================================== */
+ /* ========================= Why our Bakery================== */
+ .center{
+    text-align: center;
+ }
+ .center h3{
+    padding: 10px 0px;
+ }
+ .center p{
+    padding: 10px 0px;
+ }
+ .row{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .iner{
+    padding: 20px;
+    
+ }
+ .iner h5{
+    padding: 20px;
+    color: 
+    #303030;
+    font-size: 
+    18px;
+ }
+.iner p{
+    color: 
+    #686868;
+    font-size: 17px;
+}
+.p-40{
+    padding: 30px 0px;
+}
+/* =============================== */
+.nums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.items{
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    width: 300px;
+
+}
+.titel{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+}
+/* ========================== */
+.w-25
+{
+    width: 25%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.w-20{
+    width: 20px;
+}
+.w-30{
+    width: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.bgc{
+    background-color: #403d38;
+}
+.coler-w{
+    color: #fff;
+}
+.fs-18{
+    font-size: 18px;
+}
+.w-100{
+    width: 100%;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.Contact-Details{
+    background-image: url(./../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.Contact-Details ul li{
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+     
+}
+.Opening-Hours{
+    padding: 15px;
+}
+.Opening-Hours ul li{
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.Why-we-are-special{
+    padding: 15px;
+}
+.Why-we-are-special ul li {
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.About-us{
+    padding: 15px;
+}
+.About-us p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+/* ========================================= */
+.w-25
+{
+    width: 25%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.w-20{
+    width: 20px;
+}
+.w-30{
+    width: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.bgc{
+    background-color: #403d38;
+}
+.coler-w{
+    color: #fff;
+}
+.fs-18{
+    font-size: 18px;
+}
+.w-100{
+    width: 100%;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.Contact-Details{
+    background-image: url(./../images/contact-details-map.png);
+    background-size: 100%;
+    padding: 15px;
+}
+.Contact-Details ul li{
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+     
+}
+.Opening-Hours{
+    padding: 15px;
+}
+.Opening-Hours ul li{
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.Why-we-are-special{
+    padding: 15px;
+}
+.Why-we-are-special ul li {
+    color: #969696;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.About-us{
+    padding: 15px;
+}
+.About-us p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+/* ===========================
+ */
+ /* end-section */
+ .end-section{
+    background-color: #303030;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+ }
+ .end-section h4{
+    color: #777;
+    font-size: 20px;
+    margin: 15px 0;
+ }
+ .logo-end img{
+    padding-top: 50px;
+    width: 30%;
+ }
+.list-social-media{
+    display: flex;
+    justify-content: center;
+    
+    /* align-items: center; */
+    
+}
+.list-social-media ul li{
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.list-social-media ul li img{
+    width: 50px;
+    border: 1px solid #686868;
+    background-color: #403d38;
+    border-radius: 50%;
+
+}
+.list-social-media ul li img:hover{
+    background-color: blue;
+}
